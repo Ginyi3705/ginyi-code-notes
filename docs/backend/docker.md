@@ -194,7 +194,6 @@ docker run -it --name=my_cnetos7 -v /root/docker/data:/root/data_contrainer cent
 
 数据卷容器可以实现多个容器的数据进行交换，相当于多个容器绑定同一个数据卷
 
-<img src="C:\Users\Junyi\AppData\Roaming\Typora\typora-user-images\image-20211228110307452.png" alt="image-20211228110307452" style="zoom:50%;" />
 
 #### 创建数据卷容器
 
