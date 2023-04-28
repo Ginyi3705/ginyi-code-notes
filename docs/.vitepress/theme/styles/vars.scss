@@ -15,6 +15,17 @@
   --vp-nav-height-mobile: 56px;
   --vp-nav-height-desktop: 65px;
   //--vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+
+  --vp-c-yellow-dimm-3: rgba(255, 197, 23, .09);
+  --vp-custom-block-warning-bg: var(--vp-c-yellow-dimm-3);
+  --vp-c-red-dimm-3: rgba(237, 60, 80, .09);
+  --vp-custom-block-danger-bg: var(--vp-c-red-dimm-3);
+  --vp-c-green-dimm-3: rgba(17, 155, 97, 0.09);
+  --vp-custom-block-tip-bg: var(--vp-c-green-dimm-3);
+
+  --code-color: rgb(255, 117, 2);
+  --code-bg: rgba(210, 210, 210, 0.2);
+
 }
 
 /**
@@ -31,7 +42,6 @@
   --vp-button-brand-active-border: var(--vp-c-brand-light);
   --vp-button-brand-active-text: var(--vp-c-text-dark-1);
   --vp-button-brand-active-bg: var(--vp-button-brand-bg);
-
 }
 
 /**

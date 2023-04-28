@@ -11,18 +11,18 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /frontend/vue/index
+      link: /frontend/vue/vue3
     - theme: alt
       text: 在 github 上查看
       link: https://github.com/Ginyi3705
 features:
   - icon: ⚡️
-    title: 这里是功能区 1
-    details: 这里是功能区 1 详情信息
+    title: 前端知识
+    details: 包括Vue、React、JavaScript以及微信小程序等
   - icon: 🖖
-    title: 这里是功能区 2
-    details: 这里是功能区 2 详情信息
+    title: 后端知识
+    details: 包括SpringBoot、MySQL、Redis以及Docker等
   - icon: 🛠️
-    title: 这里是功能区 3
-    details: 这里是功能区 3 详情信息
+    title: 面试整理
+    details: 包括前端知识、后端知识以及浏览器知识等
 ---
