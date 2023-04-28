@@ -4,14 +4,14 @@ layout: home
 hero:
   name: Ginyi 学习笔记
   text: 
-  tagline: 记录 Coding 时遇到的一些问题，总结归纳！
+  tagline: 好记性不如烂键盘~ 记录 Coding 时遇到的一些问题！
   image:
     src: /images/logo.png
     alt: logo
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/what-is-vitepress
+      link: /frontend/vue/index
     - theme: alt
       text: 在 github 上查看
       link: https://github.com/Ginyi3705

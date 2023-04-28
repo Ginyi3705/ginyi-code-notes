@@ -1,0 +1,18 @@
+/* 首页主体区 */
+#app .VPHomeHero {
+  margin-top: 20px;
+  margin-bottom: 35px;
+
+  .main {
+    margin-top: 0px;
+  }
+}
+
+/* 左上角logo */
+#app .VPNavBarTitle {
+  .title {
+    color: transparent;
+    background: var(--vp-home-hero-name-background);
+    -webkit-background-clip: text;
+  }
+}
