@@ -6,7 +6,7 @@ hero:
   text: 
   tagline: 好记性不如烂键盘~ 记录 Coding 时遇到的一些问题！
   image:
-    src: /images/logo.png
+    src: /logo.png
     alt: logo
   actions:
     - theme: brand

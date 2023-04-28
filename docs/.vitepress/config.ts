@@ -4,7 +4,7 @@ export default defineConfig({
     title: "Ginyi",
     description: "记录 Coding 时遇到的一些问题，总结归纳！",
     ignoreDeadLinks: true,
-    base: "./",
+    base: "/",
     lang: "简体中文",
     head: [["link", {rel: "icon", type: "image/svg+xml", href: "logo.png"}]],
     lastUpdated: true,
