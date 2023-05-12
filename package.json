@@ -10,9 +10,15 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.48"
+    "@vitejs/plugin-vue": "^4.2.1",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "@types/node": "^18.16.3",
+    "vite": "^4.3.4",
+    "vitepress": "^1.0.0-alpha.75"
   },
   "dependencies": {
+    "@vitepress-demo-preview/component": "^2.3.0",
+    "@vitepress-demo-preview/plugin": "^1.1.9",
     "sass": "^1.58.3",
     "vue": "^3.2.47"
   }

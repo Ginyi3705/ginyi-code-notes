@@ -74,3 +74,18 @@
     --vp-home-hero-image-filter: blur(72px);
   }
 }
+
+.VPDoc.has-aside .content-container {
+  padding-left: 0;
+  max-width: none !important;
+}
+
+@media (min-width: 1280px){
+  .content{
+    padding: 0 10px;
+    min-width: 1000px !important;
+    .content-container{
+      width: 100% !important;
+    }
+  }
+}

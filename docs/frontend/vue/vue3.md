@@ -1,46 +1,32 @@
-# Vue3 + TypeScript
-
-## 安装yarn
-
-```bash
-cnpm i -g yarn
-```
+:::tip
+Vue3 + TypeScript 基础入门笔记
+:::
 
 ## 创建项目
 
 ```bash
-yarn create @vitejs/app
+# 安装 yarn
+npm i -g yarn
+
+# 创建项目
+yarn create vite
+
+# 安装依赖
+yarn install
+
+# 运行项目
+yarn dev
 ```
+
 
 ## 数据绑定
 
-注意： 如果不使用`setup`语法糖的话，最后变量需要`return`出去才能被html接收到
+:::preview 示例代码 || 待描述...
 
-```vue
-<template>
-  <div>简单的数据类型（数值，布尔） {{ value1 }}</div>
-  <div>复杂的数据类型（数据，对象） {{ value2 }}</div>
-</template>
+demo-preview=./components/code-v-model.vue
 
-<script lang="ts">
-import {defineComponent, reactive, ref} from "vue";
-export default defineComponent({
-  name: 'child',
-  setup() {
-    const value1 = ref<string>('字符串')
-    const value2 = reactive<object>({
-      name: '张三',
-      age: 20
-    })
-    return {
-      value1,
-      value2
-    }
-  }
-})
-</script>
+:::
 
-```
 
 ## Vue3 Proxy
 

@@ -1,4 +1,6 @@
 import {defineConfig} from "vitepress";
+import {componentPreview, containerPreview} from "@vitepress-demo-preview/plugin";
+
 
 export default defineConfig({
     title: "Ginyi",
@@ -7,12 +9,17 @@ export default defineConfig({
     base: "/",
     lang: "简体中文",
     head: [["link", {rel: "icon", type: "image/svg+xml", href: "logo.png"}]],
-    lastUpdated: true,
     vite: {
         server: {
             host: true,
             port: 3000,
             open: false
+        },
+    },
+    markdown: {
+        config(md) {
+            md.use(componentPreview)
+            md.use(containerPreview)
         }
     },
     themeConfig: {
@@ -35,7 +42,6 @@ export default defineConfig({
             pattern: "https://github.com/Ginyi3705/ginyi-code-notes",
             text: "有错误？上 Github 编辑它！"
         },
-        lastUpdatedText: "最后更新于 ",
         /**
          * 文档页脚
          */
@@ -67,15 +73,17 @@ export default defineConfig({
                     {text: "微信小程序", link: "/frontend/wechat/index"},
                 ],
             },
-            {text: "后端知识",
-            items: [
-                {text: "Java", link: "/backend/java"},
-                {text: "Linux常用命令", link: "/backend/linux"},
-                {text: "Docker", link: "/backend/docker"},
-                {text: "Mysql", link: "/backend/mysql"},
-                {text: "MyBatis-Plus", link: "/backend/mybatis-plus"},
-            ],},
-            {text: "面试整理", link: "/interview/index"},
+            {
+                text: "后端知识",
+                items: [
+                    {text: "Java", link: "/backend/java"},
+                    {text: "Linux常用命令", link: "/backend/linux"},
+                    {text: "Docker", link: "/backend/docker"},
+                    {text: "Mysql", link: "/backend/mysql"},
+                    {text: "MyBatis-Plus", link: "/backend/mybatis-plus"},
+                ],
+            },
+            {text: "面试整理", link: "/interview/vue"},
         ],
         sidebar: [
             {
@@ -102,7 +110,8 @@ export default defineConfig({
                 text: "面试整理",
                 collapsed: false,
                 items: [
-                    {text: "待写~", link: "/interview/index"},
+                    {text: "Vue面试题", link: "/interview/vue"},
+                    {text: "JavaScript面试题", link: "/interview/javascript"},
                 ]
             },
         ]
